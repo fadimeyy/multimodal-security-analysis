@@ -1,0 +1,8 @@
+[
+  {
+    "scenario": "REAL THREAT TEST (Knife + Escape + Help Audio)",
+    "prediction": "threat",
+    "ground_truth": "threat",
+    "response_time": 6.6534600257873535
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "total_frames_analyzed": 29,
+    "processing_time": 4.814178228378296,
+    "fps": 6.023873364108694,
+    "avg_confidence": 0.3572413793103447
+  },
+  "threat_distribution": {
+    "safe": 29,
+    "uncertain": 0,
+    "suspicious": 0,
+    "danger": 0
+  },
+  "highest_threat": {
+    "level": "safe",
+    "confidence": 0.36000000000000004,
+    "timestamp": 0.6214715831752641,
+    "explanation": "🔍 Güvenlik Analizi Sonucu:\n\n• Visual: Detected 1 objects (Güven: 0.60)\n• Audio: 'merhaba nasılsın' (Güven: 0.75)\n• Video: Tracking 1 frames with unusual activity patterns (Güven: 0.80)\n\n📊 Genel Değerlendirme:\nTehdit Seviyesi: SAFE\nGüven Skoru: 36.00%\n\n✅ GÜVENLİ: Normal aktivite, tehdit yok."
+  },
+  "temporal_analysis": {
+    "pattern": "repetitive",
+    "events": [
+      {
+        "type": "gradual_change",
+        "frames": "15-16",
+        "confidence": 0.6666666666666667,
+        "description": "Gradual transition at frame 16"
+      },
+      {
+        "type": "gradual_change",
+        "frames": "16-17",
+        "confidence": 0.6666666666666667,
+        "description": "Gradual transition at frame 17"
+      },
+      {
+        "type": "gradual_change",
+        "frames": "17-18",
+        "confidence": 0.5,
+        "description": "Gradual transition at frame 18"
+      },
+      {
+        "type": "gradual_change",
+        "frames": "18-19",
+        "confidence": 0.5,
+        "description": "Gradual transition at frame 19"
+      },
+      {
+        "type": "gradual_change",
+        "frames": "19-20",
+        "confidence": 0.5,
+        "description": "Gradual transition at frame 20"
+      },
+      {
+        "type": "gradual_change",
+        "frames": "23-24",
+        "confidence": 0.5833333333333334,
+        "description": "Gradual transition at frame 24"
+      },
+      {
+        "type": "repetitive",
+        "frames": "0-28",
+        "confidence": 0.7037037037037037,
+        "description": "Repetitive pattern detected (period=2)"
+      }
+    ]
+  },
+  "recommendations": [
+    "Maintain normal operations",
+    "Continue periodic monitoring"
+  ]
+}
