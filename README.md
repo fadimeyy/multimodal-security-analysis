@@ -273,8 +273,5 @@ User Satisfaction: 4.8/5.0
 
 <div align="center">
 
-**Built with ❤️ for advancing AI safety research**
-
-[⭐ Star on GitHub](https://github.com/fadimerbay/multimodal-security-analysis) | [🚀 Try Demo](https://huggingface.co/spaces/fadimerbay/multimodal-security-analysis) | [📖 Read Paper](#)
 
 </div>
