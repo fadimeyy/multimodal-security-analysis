@@ -1,46 +1,34 @@
----
-title: Multimodal Security Analysis System
-emoji: 🔒
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: "1.28.0"
-app_file: app.py
-pinned: false
-license: mit
----
 
-# 🔒 Multimodal Security Analysis System
+# Multimodal Security Analysis System
 
 **Context-Aware Multimodal Fusion for Real-time Threat Detection**
 
-*Master's Thesis Project - 2025*
 
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/fadimerbay/multimodal-security-analysis)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This system implements a **multimodal AI pipeline** for intelligent security threat assessment, combining:
 
-- **🖼️ Computer Vision** (YOLOv8n) - Object detection in images/videos
-- **🎤 Speech Recognition** (Whisper) - Audio transcription and analysis
-- **🎥 Temporal Analysis** - Motion pattern detection in video streams
-- **🧠 LLM Reasoning** (Ollama/Rule-based) - Context-aware decision making
+- **Computer Vision** (YOLOv8n) - Object detection in images/videos
+- **Speech Recognition** (Whisper) - Audio transcription and analysis
+- **Temporal Analysis** - Motion pattern detection in video streams
+- **LLM Reasoning** (Ollama/Rule-based) - Context-aware decision making
 
-## 🌟 Key Features
+## Key Features
 
-✅ **Real-time video analysis** with frame-by-frame object detection  
-✅ **Speech-to-text** transcription in 99+ languages including Turkish  
-✅ **Temporal motion tracking** for behavioral pattern analysis  
-✅ **Cross-modal fusion** for robust threat detection  
-✅ **Explainable AI** with reasoning chains and recommendations  
-✅ **Production-ready** deployment on Hugging Face Spaces (16GB RAM)
+ **Real-time video analysis** with frame-by-frame object detection  
+ **Speech-to-text** transcription in 99+ languages including Turkish  
+ **Temporal motion tracking** for behavioral pattern analysis  
+ **Cross-modal fusion** for robust threat detection  
+ **Explainable AI** with reasoning chains and recommendations  
+ **Production-ready** deployment on Hugging Face Spaces (16GB RAM)
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -84,7 +72,7 @@ This system implements a **multimodal AI pipeline** for intelligent security thr
 
 ---
 
-## 📊 Models & Performance
+##  Models & Performance
 
 | Component | Model | Size | Performance |
 |-----------|-------|------|-------------|
@@ -101,10 +89,10 @@ This system implements a **multimodal AI pipeline** for intelligent security thr
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Try the Live Demo
-👉 [Open in Hugging Face Spaces](https://huggingface.co/spaces/fadimerbay/multimodal-security-analysis)
+ [Open in Hugging Face Spaces](https://huggingface.co/spaces/fadimerbay/multimodal-security-analysis)
 
 ### Local Installation
 
@@ -129,7 +117,7 @@ streamlit run app.py
 
 ---
 
-## 🎓 Research Contribution
+##  Research Contribution
 
 This project demonstrates the effectiveness of **multimodal large language models (MLLMs)** in security applications.
 
@@ -163,7 +151,7 @@ Reasoning Chain:
 
 ---
 
-## 🔧 Technical Stack
+##  Technical Stack
 
 **Frontend**
 - Streamlit (UI framework)
@@ -184,7 +172,7 @@ Reasoning Chain:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 multimodal-security-analysis/
@@ -210,16 +198,16 @@ multimodal-security-analysis/
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
-- **🏢 Security Monitoring**: Real-time CCTV analysis in buildings
-- **🚨 Emergency Detection**: Automatic threat identification
-- **🏙️ Smart Cities**: Public safety systems with AI
-- **🔬 Research**: Multimodal AI benchmarking and evaluation
+- **Security Monitoring**: Real-time CCTV analysis in buildings
+- **Emergency Detection**: Automatic threat identification
+- **Smart Cities**: Public safety systems with AI
+- **Research**: Multimodal AI benchmarking and evaluation
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 Based on comprehensive testing:
 
@@ -234,7 +222,7 @@ Based on comprehensive testing:
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this system in your research, please cite:
 
@@ -250,13 +238,13 @@ If you use this system in your research, please cite:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **YOLOv8** by [Ultralytics](https://github.com/ultralytics/ultralytics)
 - **Whisper** by [OpenAI](https://github.com/openai/whisper)
@@ -265,16 +253,14 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 🚀 **Live Demo**: [HF Spaces](https://huggingface.co/spaces/fadimerbay/multimodal-security-analysis)
-- 💻 **Source Code**: [GitHub](https://github.com/fadimerbay/multimodal-security-analysis)
-- 📄 **Thesis**: [Full Document](#)
-- 📧 **Contact**: [Email](mailto:your.email@example.com)
+-  **Live Demo**: [HF Spaces](https://huggingface.co/spaces/fadimerbay/multimodal-security-analysis)
+
 
 ---
 
-## 📊 Performance Dashboard
+##  Performance Dashboard
 
 ```
 Total Analyses: 1,247
